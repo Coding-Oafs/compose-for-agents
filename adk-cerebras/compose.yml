@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
 
     models:
-      qwen2_5:
+      qwen3_coder:
         endpoint_var: BOB_BASE_URL
         model_var: BOB_CHAT_MODEL
       qwen3:
@@ -63,7 +63,7 @@ services:
 
 # NOTE: Define models
 models:
-  qwen2_5:
-    model: ai/qwen2.5:latest
+  qwen3_coder:
+    model: ai/qwen3-coder:30B-A3B-UD-Q4_K_XL
   qwen3:
     model: unsloth/qwen3-gguf:4B-UD-Q4_K_XL

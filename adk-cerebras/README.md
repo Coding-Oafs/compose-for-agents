@@ -29,7 +29,7 @@ The system consists of three main agents orchestrated by Docker Compose, which p
 ### 👨‍💻 Bob Agent
 
 - **Role**: General development tasks and project coordination
-- **Model**: Qwen2.5 (ai/qwen2.5:latest)
+- **Model**: Qwen3-Coder (ai/qwen3-coder:30B-A3B-UD-Q4_K_XL)
 - **Specialization**: Go programming expert for understanding code, explaining concepts, and generating code snippets
 
 ### 🧠 Cerebras Agent
